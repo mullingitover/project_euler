@@ -16,4 +16,3 @@ evens = array.delete_if{|val| val % 2 != 0}
 
 puts evens.inject(:+)
 
-
