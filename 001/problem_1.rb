@@ -9,3 +9,4 @@ array = []
 end
 
 puts array.inject(0){|sum, item| sum + item}
+
