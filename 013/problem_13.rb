@@ -114,3 +114,4 @@ a.map {|x| x.chomp }
 a.map! {|x| x.to_i }
 sum = a.reduce(:+).to_s
 puts sum.chars.first(10).to_s
+
