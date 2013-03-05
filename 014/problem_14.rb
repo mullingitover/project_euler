@@ -37,3 +37,4 @@ end
 end
 
 puts longest.to_s + " has the longest chain at " + max_length.to_s + " chain length."
+
