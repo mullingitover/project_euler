@@ -8,3 +8,4 @@
 # Find the sum of the digits in the number 100!
 
 puts (1..100).inject(:*).to_s.split('').inject(0){|sum,item| sum + item.to_i }
+
